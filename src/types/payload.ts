@@ -1,4 +1,4 @@
-export interface Payload {
+export class Payload {
   username: string;
   seller: boolean;
   iat?: number;

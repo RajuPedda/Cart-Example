@@ -1,11 +1,11 @@
 import { Address } from '../types/user';
 
-export interface LoginDTO {
+export class LoginDTO {
   username: string;
   password: string;
 }
 
-export interface RegisterDTO {
+export class RegisterDTO {
   username: string;
   password: string;
   seller?: boolean;

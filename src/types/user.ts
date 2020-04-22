@@ -1,6 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface Address {
+export class Address {
   addr1: string;
   addr2: string;
   city: string;
@@ -9,7 +9,7 @@ export interface Address {
   zip: number;
 }
 
-export interface User extends Document {
+export class User extends Document {
   username: string;
   readonly password: string;
   seller: boolean;
